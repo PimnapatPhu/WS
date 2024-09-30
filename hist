@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+def q02():
+
+    x = ['25-44', '25-44', '25-44', '25-44', '25-44', 'Under 18', 'Under 18', '45-64', '45-64',
+                  '45-64', '45-64', '45-64', '18-24', '18-24', '18-24', '65-84', '65-84', '65-84', '65-84',
+                  '85 or older']
+
+    num_bins = 6
+    n, bins, patches = plt.hist(x, num_bins, rwidth=0.99)
+    plt.show()
